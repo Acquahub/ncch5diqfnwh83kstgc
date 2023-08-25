@@ -1,0 +1,95 @@
+:root {
+	--hTvOrientation: row;
+	--headerimageSize: 25px;
+	--headermaintextMargin: 0px;
+	--headertextSize: 10px;
+	--applelogoImage: 1;
+	--headervPadding: 10px;
+	--headerhPadding: 10px;
+	--backgroundColor: #F5F5F5;
+	--headertexthMargin: 10px;
+	--headertextvMargin: 5px;
+	--sectionimageSize: 85vh;
+
+}
+
+.layer-3-4f72c864f97f4df095749e1fd44b8083-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+@media (max-width: 480px) {:root{
+	--hTvOrientation: column;
+	--headermaintextMargin: 25px;
+	--headertextSize: 10px;
+	--headertextvMargin: 5px;
+	--sectionimageSize: 40vh;
+	--headerimageSize: 25px;
+	--headervPadding: 10px;
+	--headerhPadding: 10px;
+	--backgroundColor: #F5F5F5;
+	--headertexthMargin: 10px;
+
+} 
+.layer-3-4f72c864f97f4df095749e1fd44b8083-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+} 
+}
+@media (min-width: 481px) {:root{
+	--hTvOrientation: row;
+	--headerimageSize: 25px;
+	--headermaintextMargin: 0px;
+	--headertextSize: 10px;
+	--headervPadding: 10px;
+	--headerhPadding: 10px;
+	--backgroundColor: #F5F5F5;
+	--headertexthMargin: 10px;
+	--headertextvMargin: 5px;
+	--sectionimageSize: 85vh;
+
+} 
+.layer-3-4f72c864f97f4df095749e1fd44b8083-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+} 
+}
+@media (max-aspect-ratio: 1/1) and (min-width: 481px) {:root{
+	--hTvOrientation: row;
+	--sectionimageSize: 65vh;
+	--headerimageSize: 25px;
+	--headermaintextMargin: 0px;
+	--headertextSize: 12px;
+	--headervPadding: 10px;
+	--headerhPadding: 10px;
+	--backgroundColor: #F5F5F5;
+	--headertexthMargin: 10px;
+	--headertextvMargin: 0px;
+
+} 
+.layer-3-4f72c864f97f4df095749e1fd44b8083-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+} 
+}
+ 
+            
+body, html, #root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
